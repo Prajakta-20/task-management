@@ -17,6 +17,13 @@ body {
     width: 100%;
 }
 
+.form__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
 @media (min-width:992px) {
     .add__new__btn__mobile__only {
         display: none;
